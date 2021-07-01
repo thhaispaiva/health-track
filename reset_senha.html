@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Esqueci minha senha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/reset_style.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="icon" href="images/htlogo.png">
+
+ <div class="header">
+  <div class="d-flex logoheader"> <img src="images/htlogo.png" class="headerimg"> </div>
+  <h1 class="headertext">Esqueci minha senha</h1>
+</div>
+
+  </head>
+
+  <body>
+
+<form>
+  <div class="email_form col-md-3">
+    <label for="email">Digite o e-mail cadastrado:</label>
+    <input type="email" class="form-control" id="Email" placeholder="E-mail">
+  </div>
+  <br><br>
+  <a href="login.html" class="btn btn-confirm" onclick="alert('Link de redefinição enviado com sucesso. Verifique sua caixa de entrada.')" role="button">Enviar</button></a>
+</form>
+<br>
+
+<div class="alert alert-info" role="alert">
+  <i class="bi bi-info-circle"></i>
+ Enviaremos ao seu e-mail um link para redefinir sua senha.
+</div>
+<br>
+
+<div class="linkvoltar">
+<p><a href="login.html" class="voltar">Voltar</a><br></p>
+</div>
+<br>
+
+
+
+  </body>
+
+  
+</html>

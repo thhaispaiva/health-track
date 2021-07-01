@@ -1,0 +1,82 @@
+*
+
+body {
+  background-color: #f9f9f9 !important;
+	height: 100vh;
+	text-align: center; 
+	font-family: georgia !important;
+
+}
+
+.header {
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0px 2px 2px lightgray;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 24px !important;
+  padding-top: 10px;
+}
+
+.d-flex.logoheader {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+.email_form {
+	margin-top: 120px;
+	display: inline-block;
+	text-align: left;
+}
+
+.password_form {
+	margin-top: 20px;
+	display: inline-block;
+	text-align: left;
+}
+
+.btn.btn-entrar {
+	position: relative;
+  color: #ffffff;
+  background-color: #94d487;
+  border-color: #94d487;
+  width: 25%;
+}
+
+.btn.btn-entrar:hover {
+  color: white;
+	background-color: #76b968;
+	border-color: #76b968;
+}
+
+a.linksuteis:link {
+  color:gray;
+  text-decoration:none;
+}
+a.linksuteis:visited {
+  color:gray;
+  text-decoration:none;
+}
+a.linksuteis:hover {
+  color: #76b968;
+  text-decoration:none;
+}
+a.linksuteis:active {
+  color:#gray;
+  text-decoration:none;
+}
+
+.or {
+	color: black;
+	font-size: 20px;
+}
